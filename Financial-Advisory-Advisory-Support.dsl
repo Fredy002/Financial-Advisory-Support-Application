@@ -19,9 +19,9 @@ workspace {
                 // Containers
                 adviserApp    = container "Adviser App" "Provides services in advisory processes" "NestJs"
                 userApp       = container "User App" "Allows user to receive financial advice" "NestJs"
-                mobile        = container "Mobile" "Access to features via mobile device" "Flutter"
-                webApp        = container "Web App" "Web interface for accessing features" "VueJs"
-                webAPI        = container "Web API" "API for application interaction" "NestJs"
+                mobile        = container "Platform Mobile" "Access to features via mobile device" "Flutter"
+                webApp        = container "Platform Website" "Web interface for accessing features" "VueJs"
+                webAPI        = container "Platform API" "API for application interaction" "NestJs"
                 landingPage   = container "Landing Page" "Home page for visitors" "Bootstrap"
             }
 
